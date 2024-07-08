@@ -19,7 +19,6 @@ export const About: CollectionConfig = {
     focalPoint: true,
   },
   access: {
-    read: () => true,
     update: admins,
     create: admins,
     delete: admins,
