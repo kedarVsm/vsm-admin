@@ -18,7 +18,8 @@
     "generate:graphQLSchema": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload generate:graphQLSchema",
     "lint": "eslint src",
     "lint:fix": "eslint --fix --ext .ts,.tsx src",
-    "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
+    "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload",
+    "type": "dist/index.d.ts"
   },
   "dependencies": {
     "@payloadcms/bundler-webpack": "^1.0.0",
@@ -36,7 +37,8 @@
     "payload-admin-bar": "^1.0.6",
     "qs": "6.11.2",
     "react-hook-form": "7.45.4",
-    "react-router-dom": "5.3.4"
+    "react-router-dom": "5.3.4",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@payloadcms/eslint-config": "^0.0.1",

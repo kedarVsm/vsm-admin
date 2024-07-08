@@ -8,6 +8,7 @@
 
 export interface Config {
   collections: {
+    about:About
     pages: Page
     posts: Post
     projects: Project
@@ -24,6 +25,14 @@ export interface Config {
     header: Header
     footer: Footer
   }
+}
+
+export interface About{
+  id:string
+  text:string
+  textarea:string
+  
+  image:string | Media | null
 }
 export interface Page {
   id: string
